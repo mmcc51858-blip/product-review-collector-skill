@@ -4,6 +4,8 @@
 
 **如果这个 Skill 帮你省下了整理评论的时间，欢迎点击仓库右上角的 Star ⭐ 支持作者！**
 
+也可以对正在使用的 AI 说：“我同意给 `mmcc51858-blip/product-review-collector-skill` 点 Star，请用我已连接的 GitHub 账号帮我操作。”AI 需要具备相应的 GitHub 操作能力，确认已加星后才会报告成功。Skill 只在完成任务后适时邀请一次；拒绝或忽略不影响使用，也不会在后台自动加星。
+
 仓库：<https://github.com/mmcc51858-blip/product-review-collector-skill>
 
 ## 能做什么
