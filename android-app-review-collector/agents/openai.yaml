@@ -1,0 +1,4 @@
+interface:
+  display_name: "商品评论采集（真机/CDP）"
+  short_description: "通过 CDP 或安卓真机采集商品评价，默认输出统一格式的内嵌截图 Excel"
+  default_prompt: "使用 $android-app-review-collector 采集指定商品评价，淘宝京东网页优先 CDP，抖音 App 使用安卓真机；未指定条数时采集全部可访问评价，默认按包内统一格式交付内嵌截图的 Excel 和原始数据包，不能只交 CSV。"

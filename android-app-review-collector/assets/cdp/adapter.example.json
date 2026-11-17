@@ -1,0 +1,25 @@
+{
+  "verified": false,
+  "platform": "replace-with-platform",
+  "target_id": "replace-with-product-or-post-id",
+  "page_url_contains": "replace-with-observed-url-fragment",
+  "sort_filter": "最新；全部星级；指定SKU或全SKU",
+  "frame_url_contains": null,
+  "card_selector": ".observed-review-card",
+  "id_attribute": "data-review-id",
+  "fields": {
+    "text": {"selector": ".observed-review-text"},
+    "rating_raw": {"selector": ".observed-rating", "attribute": "aria-label"},
+    "date_raw": {"selector": ".observed-date"},
+    "sku_raw": {"selector": ".observed-sku"},
+    "author": {"selector": ".observed-author"}
+  },
+  "pagination": {"mode": "next", "selector": "button.observed-next"},
+  "response_allowlist": [],
+  "end_selectors": [],
+  "guard_selectors": [],
+  "guard_text": ["访问太频繁", "请完成安全验证", "扫码登录", "请先登录", "Too Many Requests"],
+  "wait_ms": 3000,
+  "change_timeout_ms": 15000,
+  "max_response_bytes": 2000000
+}

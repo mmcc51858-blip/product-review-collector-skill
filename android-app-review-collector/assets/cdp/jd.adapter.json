@@ -1,0 +1,46 @@
+{
+  "verified": false,
+  "frame_url_contains": null,
+  "id_attribute": null,
+  "response_allowlist": [],
+  "end_selectors": [],
+  "guard_selectors": [],
+  "guard_text": [
+    "请完成安全验证",
+    "访问异常提示",
+    "操作频繁，请稍后再试",
+    "登录后查看全部评价",
+    "请先登录后查看"
+  ],
+  "wait_ms": 1500,
+  "change_timeout_ms": 15000,
+  "platform": "京东",
+  "target_id": null,
+  "product_name": null,
+  "source_url": null,
+  "page_url_contains": null,
+  "sort_filter": null,
+  "card_selector": "#rateList .jdc-pc-rate-card",
+  "fields": {
+    "text": {
+      "selector": ".jdc-pc-rate-card-main-desc"
+    },
+    "author": {
+      "selector": ".jdc-pc-rate-card-nick"
+    },
+    "date_raw": {
+      "selector": ".jdc-pc-rate-card-info.top .date"
+    },
+    "sku_raw": {
+      "selector": ".jdc-pc-rate-card-info.top .info"
+    }
+  },
+  "pagination": {
+    "mode": "scroll",
+    "selector": "#rateList ._rateListContainer_1ygkr_45",
+    "step_px": 230
+  },
+  "capture_viewport": "#rateList ._rateListContainer_1ygkr_45",
+  "viewport_top_inset": 54,
+  "media_selector": ".jdc-pc-rate-card-images img"
+}

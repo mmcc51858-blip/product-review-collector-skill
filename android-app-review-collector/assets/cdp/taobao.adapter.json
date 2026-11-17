@@ -1,0 +1,47 @@
+{
+  "verified": false,
+  "frame_url_contains": null,
+  "id_attribute": null,
+  "response_allowlist": [],
+  "end_selectors": [],
+  "guard_selectors": [],
+  "guard_text": [
+    "请完成安全验证",
+    "访问异常提示",
+    "操作频繁，请稍后再试",
+    "登录后查看全部评价",
+    "请先登录后查看"
+  ],
+  "wait_ms": 3000,
+  "change_timeout_ms": 15000,
+  "platform": "天猫",
+  "target_id": null,
+  "product_name": null,
+  "source_url": null,
+  "page_url_contains": null,
+  "sort_filter": null,
+  "card_selector": ".Drawer--nzZd5HyY .Comment--H5QmJwe9",
+  "fields": {
+    "text": {
+      "selector": ".content--uonoOhaz"
+    },
+    "author": {
+      "selector": ".userName--KpyzGX2s"
+    },
+    "date_raw": {
+      "selector": ".meta--PLijz6qf",
+      "pattern": "(\\d{4}年\\d{1,2}月\\d{1,2}日)"
+    },
+    "sku_raw": {
+      "selector": ".meta--PLijz6qf",
+      "pattern": "已购[:：]\\s*(.*)"
+    },
+    "purchase_raw": {
+      "selector": ".meta--PLijz6qf"
+    }
+  },
+  "pagination": {
+    "mode": "scroll",
+    "selector": ".Drawer--nzZd5HyY .comments--ChxC7GEN"
+  }
+}
